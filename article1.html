@@ -30,39 +30,82 @@
                 October 14, 2024</h2>
               <p><span id="span1">Canonical</span> released Ubuntu 24.10 “Oracular Oriole” on Oct. 10, 2024. This latest version brings performance improvements and enhanced hardware support while also marking a special milestone — 20 years since Ubuntu’s first stable release.<br><br>
 
-                As the name suggests, Ubuntu 24.04 LTS (Long-Term Support) is still being supported and will continue to receive five years of free security maintenance updates.
+                As the name suggests, Ubuntu 24.04 LTS (Long-Term Support) is still being supported and will continue to receive five years of free security maintenance updates.<br><br>
                 
-                In this guide, you’ll learn how to upgrade your existing Ubuntu 24.04 installation to the latest Ubuntu 24.10.
+                In this guide, you’ll learn how to upgrade your existing Ubuntu 24.04 installation to the latest Ubuntu 24.10.<br><br>
                 
-                Why Upgrade to Ubuntu 24.10?
-                As Ubuntu 24.04 is an LTS release, there’s no requirement to upgrade since it will be supported for at least five years. You can extend this for another five years through an Ubuntu Pro subscription, which is free for personal devices. Paid subscribers who install the Legacy Support add-on can benefit from an additional two years of coverage.
+                <h3>Why Upgrade to Ubuntu 24.10?</h3>
+                As Ubuntu 24.04 is an LTS release, there’s no requirement to upgrade since it will be supported for at least five years. You can extend this for another five years through an Ubuntu Pro subscription, which is free for personal devices. Paid subscribers who install the Legacy Support add-on can benefit from an additional two years of coverage.<br><br>
                 
-                Ubuntu 24.10 will receive security and maintenance for just nine months out of the box. However, it is also compatible with Ubuntu Pro and comes with several upgrades.
+                Ubuntu 24.10 will receive security and maintenance for just nine months out of the box. However, it is also compatible with Ubuntu Pro and comes with several upgrades.<br><br>
                 
-                For instance, Ubuntu now ships with the latest available version of the upstream Linux kernel. The kernel version is determined by Ubuntu’s freeze date, even if the kernel is still in Release Candidate (RC) status. This approach allows users to benefit from the latest features, though it may come at the possible expense of system stability.
+                For instance, Ubuntu now ships with the latest available version of the upstream Linux kernel. The kernel version is determined by Ubuntu’s freeze date, even if the kernel is still in Release Candidate (RC) status. This approach allows users to benefit from the latest features, though it may come at the possible expense of system stability.<br><br>
                 
-                The main flavor of Ubuntu 24.10 also ships with the latest Gnome 47 desktop, an upgraded App Center, an experimental Security Center, and better management of Snap packages.
+                The main flavor of Ubuntu 24.10 also ships with the latest Gnome 47 desktop, an upgraded App Center, an experimental Security Center, and better management of Snap packages.<br><br>
                 
-                See the official Oracular Oriole announcement to discover all the latest features in Ubuntu.
+                See the official Oracular Oriole announcement to discover all the latest features in Ubuntu.<br><br>
                 
-                How It Works
-                Ubuntu 22.04 supports upgrading via the command line or the built-in software updater.
+                <h3>How It Works</h3>
+                Ubuntu 22.04 supports upgrading via the command line or the built-in software updater.<br><br>
                 
-                The simplest way to upgrade is to launch the software updater to ensure you have the latest version of Ubuntu 22.04 (currently 22.04.01). Then, you can modify the updater settings to allow you to upgrade to a regular non-LTS release of Ubuntu.
+                The simplest way to upgrade is to launch the software updater to ensure you have the latest version of Ubuntu 22.04 (currently 22.04.01). Then, you can modify the updater settings to allow you to upgrade to a regular non-LTS release of Ubuntu.<br><br>
                 
                 Rerunning the software updater will display the option to upgrade your OS.<br>
-                Choose “Settings” to launch “Software & Updates.” From here, select the “Updates” tab. In the dropdown menu labeled “Notify me of a new Ubuntu version,” choose “For any new version.” This means Ubuntu 24.10 will appear as an upgrade option, even though it’s not a Long-Term Support release.
+                If you choose to proceed, the Ubuntu upgrade tool will connect to the relevant software channels and download the necessary packages.<br><br>
 
-                Choose “Close,” then relaunch the Software Updater. You’ll now see a notification saying that Ubuntu 22.04 is up to date, but Ubuntu 24.10 is available. Choose “Upgrade” to continue.
+                Ubuntu disables third-party repositories and PPAs by default during upgrade. However, once the OS is upgraded to version 24.10, you can re-enable these via the command line.<br><br>
+
+                <h3>Step 1. Prepare your System</h3>
+                Upgrading Ubuntu is a relatively simple process. Still, whenever making any significant changes to your OS, it’s best to take some steps to keep your data safe:<br><br>
+                <ul style="margin: 20px;">
+                <li>Save and close any open files. Do the same for any active programs.</li>
+                <li>If using a portable device, connect to AC power so the battery won’t fail as you update the OS.</li>
+                <li>Ensure all your files are backed up using your chosen <span id="span2">utility</span>.</li>
+                </ul>
+                Next, check that your installation of Ubuntu 24.04 is fully up to date. The easiest way to do this is:<br><br>
+                <ul style="margin: 20px;">
+                  <li>Click on the Activities launcher and enter “software” into the search bar.</li>
+                  <li>Choose the Software Updater icon to check for updates automatically.</li>
+                  <li>If any updates are available, choose “Install Now” to continue.</li>
+                  </ul>
+                  Your computer may need to restart to finish installing updates. If so, select “Restart Now” from the Software Updater menu to continue.<br><br>
+
+You can also update Ubuntu 24.04 via the command line. Open Terminal, then run:<br><br>
+
+<b style="font-family: 'Courier New', Courier, monospace;">sudo apt update && sudo apt full-upgrade</b><br><br>
+
+Press “Y” to confirm you wish to update the OS to the most recent version.<br><br>
+
+                  <h3>Step 2. Get Ready To Upgrade</h3>
+Once the system reboots, repeat the instructions outlined in the previous step to launch the Software Updater.<br><br>
+
+If further updates are available, download and apply them now before continuing. Once these have all been applied, you’ll see a Software Updater notification saying your system is up to date.<br><br>
+                Choose “Settings” to launch “Software & Updates.” From here, select the “Updates” tab. In the dropdown menu labeled “Notify me of a new Ubuntu version,” choose “For any new version.” This means Ubuntu 24.10 will appear as an upgrade option, even though it’s not a Long-Term Support release.<br><br>
+
+                Choose “Close,” then relaunch the Software Updater. You’ll now see a notification saying that Ubuntu 22.04 is up to date, but Ubuntu 24.10 is available. Choose “Upgrade” to continue.<br><br>
                 
-                If this notification doesn’t appear, you can also manually check for the latest version of Ubuntu via Terminal. Open the utility and run:
+                If this notification doesn’t appear, you can also manually check for the latest version of Ubuntu via Terminal. Open the utility and run:<br><br>
                 
-                sudo update-manager -c
+                <b style="font-family: 'Courier New', Courier, monospace;">sudo update-manager -c</b><br><br>
                 
-                Step 3. Start the Upgrade
-                Once the Ubuntu upgrade utility launches, it will display a brief overview of everything new in Oracular Oriole. There’s also a link to the official release notes if you need a detailed breakdown.
+               <h3>Step 3. Start the Upgrade</h3>
+                Once the Ubuntu upgrade utility launches, it will display a brief overview of everything new in Oracular Oriole. There’s also a link to the official release notes if you need a detailed breakdown.<br><br>
                 
-                After reading through these, click “Start Upgrade” to continue. This will download the latest release upgrade tool.</p>
+                After reading through these, click “Start Upgrade” to continue. This will download the latest release upgrade tool.<br><br>
+                Next, the “Distribution Upgrade” will launch. You’ll notice a tilde next to “Preparing to Upgrade.” The tool will then update the OS software channels.<br><br>
+
+                Once this is done, you’ll see a new window asking, “Do you want to start the upgrade?” Click “Details” for more information about the packages that will be changed/removed. Choose “Start Upgrade” to continue.<br><br>
+                
+                During the upgrade process, the system notified us several times that Oracular was not responding. We chose “Wait” in each case, and the upgrade continued without issue.<br><br>
+                
+                <h3>Step 4. Install Your Upgrades</h3>
+                Once you start the upgrade, Ubuntu will inform you that the lock screen will be disabled during the process. Select “Close” to continue.<br><br>
+                
+                The upgrade tool will then begin downloading and installing the necessary packages. During this stage, the desktop wallpaper will change to the default background for Oracular Oriole.<br><br>
+                You may also see a prompt regarding “libc6” during the upgrade, asking whether Ubuntu should restart services during package upgrades without asking. Click “Next” to confirm.<br><br>
+
+                If you want more detailed information on the installation process, choose “Terminal.”<br><br>
+              </p>
               
             </article>
         </div>
@@ -72,11 +115,11 @@
     <footer class="footer1">
       <div class="social-links">
         <!-- Social Media Links -->
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
+        <a href="https://www.linkedin.com/company/ect-news-network/"><img src="IMAGES/Untitled_design-removebg-preview.png"></a>
+        <a href="https://x.com/i/flow/login?redirect_after_login=%2Ftechnewsworld"><img src="IMAGES/Untitled_design__1_-removebg-preview.png"></a>
         <a href="#">Instagram</a>
       </div>
-      <p>&copy; 2024 Technology News Blog</p>
+      <p>&copy; 2024 Tech Trend Today</p>
     </footer>
 </body>
 </html>
