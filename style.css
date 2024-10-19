@@ -123,6 +123,49 @@ footer {
   }
 }
 
+/* Stilet për kompjuterë (shihni që jeni mbi 1024px) */
+@media (min-width: 1025px) {
+  body {
+      font-size: 18px; /* Për shembull, font më të madh për kompjuterë */
+  }
+}
+
+/* Stilet për tableta (768px deri në 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  body {
+      font-size: 16px; /* Font më të vogël për tableta */
+  }
+}
+
+/* Stilet për telefona (më pak se 768px) */
+@media (max-width: 767px) {
+  body {
+      font-size: 14px; /* Font edhe më të vogël për telefona */
+  }
+  .menu-icon {
+    display: block;
+}
+nav {
+  display: none; /* Fshi menunë në fillim */
+  flex-direction: column; /* Shfaq menunë në kolonë kur hapet */
+  background: #253179; /* Ngjyrë sfondi për menunë */
+  position: absolute; /* Pozita absolute për t'u shfaqur mbi përmbajtjen */
+  width: 100%;
+  top: 100%; /* Pozicionohet nën header */
+  z-index: 1000; /* Sigurohu që të jetë mbi përmbajtjen */
+}
+
+nav.show {
+  display: flex; /* Trego menunë kur është e hapur */
+}
+
+nav a {
+  margin: 0.5em 0; /* Rregullo marginën për lidhjet */
+  font-size: 20px; /* Rregullo fontin për pajisje më të vogla */
+  padding: 10px; /* Shto pak padding */
+}
+}
+
 #span1{
   color: red;
   font-size: 20px;
@@ -139,4 +182,19 @@ form{
   width: 50%;
   margin-left: 150px;
   margin-top:100px ;
+}
+
+
+
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon .line {
+  background-color: white;
+  height: 4px;
+  width: 30px;
+  margin: 5px 0;
 }
