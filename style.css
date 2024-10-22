@@ -59,23 +59,26 @@ nav a {
   background-size: 70%;
   
 }
+
 .div4{
-  max-width: 40%;
+  width: 50%;
   float: left;
-  margin-right: 5% ;
+  padding:10px;
+  overflow: auto;
  
 }
 .div5{
-  width: 40%;
+  width: 50%;
   float: left;
-
+  padding: 10px;
+  overflow: auto;
 }
-.div2{
+/*.div2{
   width: 30%;
   height: 700px;
-  background-color: #112347;
+  
   float: left;
-}
+}*/
 .div3{
   width: 100%;
   height: auto;
@@ -192,6 +195,13 @@ form{
   width: 50%;
   margin-left: 150px;
   margin-top:100px ;
+  
+    background-color: #ffffff; /* Form background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 20px; /* Inner spacing */
+
+
 }
 
 
