@@ -190,7 +190,7 @@ label, input{
 }
 form{
   width: 50%;
-  margin-left: 150px;
+  margin-left: 15px;
     background-color: #ffffff; /* Form background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
@@ -228,7 +228,8 @@ form{
 }
 .div2{
   clear: both;
-  margin-top: 100px;
+  margin-top: 200px;
+  
 width: 100%;
 
 }
