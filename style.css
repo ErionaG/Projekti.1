@@ -93,13 +93,18 @@ nav a {
 }
 
 article {
-  flex: 1 1 30%;
-  margin: 1em;
+  width: 30%;
+  float: left;
+  margin: 30px;
   background: #f9f9f9;
   padding: 1em;
   border: 1px solid #ddd;
 }
 
+h1{
+  margin-left: 20px;
+  
+}
 aside {
   margin-top: 2em;
 }
