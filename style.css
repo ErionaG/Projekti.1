@@ -43,10 +43,7 @@ nav a {
   margin: 0 0.5em;
   text-decoration: none;
 }
-/*.link2{
-  margin-top: 180px;
 
-}*/
 .main1{
   width: 100%;
   height: auto;
@@ -73,9 +70,7 @@ nav a {
   padding: 10px;
   overflow: auto;
 }
-.div2{
-  
-}
+
 .div3{
   width: 100%;
   height: auto;
@@ -102,7 +97,7 @@ article {
 }
 
 h1{
-  margin-left: 20px;
+  margin-left: 40px;
   
 }
 aside {
@@ -196,7 +191,6 @@ label, input{
 form{
   width: 50%;
   margin-left: 150px;
-  
     background-color: #ffffff; /* Form background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
@@ -204,10 +198,6 @@ form{
 
 
 }
-
-
-
-
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -220,6 +210,10 @@ form{
   margin: 5px 0;
 }
 
+.main3{
+  width: 100%;
+  height: auto;
+}
 .aboutus{
   width: 30%;
   float: left;
@@ -231,4 +225,10 @@ form{
 .contactus{
   width: 30%;
   float: left;
+}
+.div2{
+  clear: both;
+  margin-top: 100px;
+width: 100%;
+
 }
