@@ -133,50 +133,94 @@ footer {
     display: block;
     margin: 0.5em 0;
   }
+  .div1{
+    height: 250px;
+  }
+  #img111{
+    width: 100%;
+    height: 250px;
+  }
+  .div4{
+    width: 100%;
+    height: 250px;
+    padding:10px;
+    
+  }
+  .img222{
+    display: block;
+    margin:auto;
+    width: 400px;
+    height: 180px;
+  }
+  .h22{
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+  }
+  .div5{
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+ 
+  }
+  .img333{
+    display: block;
+    margin:auto;
+    width: 400px;
+    height: 180px;
+  }
+  .h33{
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+  }
 }
+/*
 
-/* Stilet për kompjuterë (shihni që jeni mbi 1024px) */
 @media (min-width: 1025px) {
   body {
-      font-size: 18px; /* Për shembull, font më të madh për kompjuterë */
+      font-size: 18px; 
   }
 }
 
-/* Stilet për tableta (768px deri në 1024px) */
+
 @media (max-width: 1024px) and (min-width: 768px) {
   body {
-      font-size: 16px; /* Font më të vogël për tableta */
+      font-size: 16px; 
   }
 }
 
-/* Stilet për telefona (më pak se 768px) */
+
 @media (max-width: 767px) {
   body {
-      font-size: 14px; /* Font edhe më të vogël për telefona */
+      font-size: 14px; 
   }
   .menu-icon {
     display: block;
+    position: relative;
+    z-index: 1001;
 }
 nav {
-  display: none; /* Fshi menunë në fillim */
-  flex-direction: column; /* Shfaq menunë në kolonë kur hapet */
-  background: #253179; /* Ngjyrë sfondi për menunë */
-  position: absolute; /* Pozita absolute për t'u shfaqur mbi përmbajtjen */
+  display: none; 
+  flex-direction: column; 
+  background: #1ef73b; 
+  position: absolute; 
   width: 100%;
-  top: 100%; /* Pozicionohet nën header */
-  z-index: 1000; /* Sigurohu që të jetë mbi përmbajtjen */
+  top: 0px ;
+  left: 0px; 
+  z-index: 1000; 
 }
 
-nav.show {
-  display: flex; /* Trego menunë kur është e hapur */
+#img1:hover {
+  display: flex; 
 }
 
 nav a {
-  margin: 0.5em 0; /* Rregullo marginën për lidhjet */
-  font-size: 20px; /* Rregullo fontin për pajisje më të vogla */
-  padding: 10px; /* Shto pak padding */
+  margin: 0.5em 0; 
+  font-size: 20px;
+  padding: 10px; 
 }
-}
+}*/
 
 #span1{
   color: red;
