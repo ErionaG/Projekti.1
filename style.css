@@ -133,6 +133,7 @@ footer {
     display: block;
     margin: 0.5em 0;
   }
+  
   .div1{
     height: 250px;
   }
@@ -174,6 +175,7 @@ footer {
     width: fit-content;
     text-align: center;
   }
+
 }
 /*
 
