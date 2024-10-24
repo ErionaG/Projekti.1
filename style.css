@@ -212,7 +212,7 @@ nav a {
   box-shadow:0px 0px 20px #253179, 0px 0px 20px #253179;
   border-radius: 20px;
   text-align: center;
-  padding: 15px;
+  padding: 60px;
 }
 .ourteam{
   width: 30%;
@@ -223,7 +223,7 @@ nav a {
   box-shadow:0px 0px 20px #253179, 0px 0px 20px #253179;
   border-radius: 20px;
   text-align: center;
-  padding: 15px;
+  padding: 50px;
   margin-bottom: 40px;
 }
 .contactus{
@@ -235,7 +235,7 @@ nav a {
   box-shadow:0px 0px 20px #253179, 0px 0px 20px #253179;
   border-radius: 20px;
   text-align: center;
-  padding: 15px;
+  padding: 50px;
 }
 .div2{
   clear: both;
