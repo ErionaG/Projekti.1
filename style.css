@@ -125,10 +125,36 @@ footer {
 
 
 @media (max-width: 768px) {
+  .main2{
+    width: 100%;
+  }
+  .main3{
+    width: 100%;
+  }
+  .aboutus{
+   clear: both;
+   width: 850px;
+
+  }
+  .ourteam{
+    clear: both;
+    width: 85%;
+   }
+   .contactus{
+    clear: both;
+    width: 85%;
+   }
   .articles {
     flex-direction: column;
+   width: 85%;
   }
-
+  article{
+    width: 85%;
+  }
+  .img444{
+    width: 330px;
+    
+  }
   nav a {
     display: block;
     margin: 0.5em 0;
