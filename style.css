@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  
 }
 .divikryesor{
   width: 100%;
@@ -274,7 +275,7 @@ footer {
     
   }
   .art-img1{
-    width: 350px;
+    width: 870px;
   }
   .main3{
     width: 100%;
@@ -331,14 +332,14 @@ footer {
       padding: 20px; /* Inner spacing */
   }
   .articles {
-    flex-direction: column;
+    
    
   }
   article{
-    width: 85%;
+    width: 43%;
   }
   .img444{
-    width: 330px;
+    width: 400px;
     
   }
   nav a {
@@ -347,40 +348,44 @@ footer {
   }
   
   .div1{
-    height: 250px;
+    height: 500px;
   }
   #img111{
     width: 100%;
-    height: 250px;
+    height: 500px;
   }
   .div4{
-    width: 100%;
-    height: 250px;
+    width: 45%;
+    height: 300px;
     padding:10px;
+    float: left;
     
+    margin: 10px 25px;
   }
   .img222{
     display: block;
     margin:auto;
-    width: 400px;
-    height: 180px;
+    width: 430px;
+    height: 220px;
   }
   .h22{
-    font-size: 16px;
+    font-size: 20px;
     width: fit-content;
     text-align: center;
   }
   .div5{
-    width: 100%;
-    height: 250px;
+    width: 45%;
+    height: 300px;
     padding: 10px;
- 
+    float: left;
+   
+    margin: 10px 20px;
   }
   .img333{
     display: block;
     margin:auto;
-    width: 400px;
-    height: 180px;
+    width: 430px;
+    height: 220px;
   }
   .h33{
     font-size: 16px;
